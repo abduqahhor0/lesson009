@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+img {
+    max-width: 100%;
+ }
+ a {
+    color: inherit;
+    text-decoration: inherit;
+ }
+ li {
+    list-style: none;
+ }
+ .navbar{
+    display: flex;
+    align-items: center;
+    height: 77px;
+    width: 100%;
+    justify-content: space-around;
+  } 
+  .navbar__collection{
+    display: flex; 
+    gap: 50px;
+  }
+  .navbar__logo{
+    flex: 1;
+  }
+  .navbar__link{
+    color: #0f0202;
+    transition: all.3s ease;
+    padding: 15px;
+  }
+  .hero__wrapper{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+  .card__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  .card__text{
+    width: 500px;
+  }
+  .cart__btn{
+    background: #ddd;
+    width: 80px;
+    height: 35px;
+    border-radius: 6px;
+    border: none;
+  }
+  .navbar__btn{
+    width: 120px;
+    height: 35px;
+    background: #CF6F49;
+    border: 1px;
+    border-radius: 6px;
+    color: #fff;
+  }
+  .card__btn{
+    width: 150px;
+    height: 20px;
+    border-radius: 12px;
+    border: none;
+    background: #eee;
+  }
+  .hero__title{
+    font-size: 60px;
+  }
+  .hero__input{
+    width: 200px;
+    height: 30px;
+  }
+  .navbar__btn-find{
+    width: 120px;
+    height: 35px;
+    background: #CF6F49;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+  }
+  .actions{
+    display: flex;
+    gap: 20px;
+    width: 300px;
+    height: 30px;
+    border-radius: 6px;
+    background: #fff;
+    border: none;
+  }
